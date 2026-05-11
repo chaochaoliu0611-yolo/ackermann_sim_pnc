@@ -1,0 +1,14 @@
+<library path="saye_nav2_plugins">
+	<class name="saye_nav2_plugins/HybridAStarPlanner" type="saye_nav2_plugins::HybridAStarPlanner" base_class_type="nav2_core::GlobalPlanner">
+	  <description>Hybrid A* global planner with Reeds-Shepp motion primitives and quintic polynomial smoothing</description>
+	</class>
+	<class name="saye_nav2_plugins/MPCController" type="saye_nav2_plugins::MPCController" base_class_type="nav2_core::Controller">
+	  <description>Model Predictive Controller using linearized kinematic bicycle model and OSQP QP solver</description>
+	</class>
+	<class name="saye_nav2_plugins/PurePursuitController" type="saye_nav2_plugins::PurePursuitController" base_class_type="nav2_core::Controller">
+	  <description>Classic Pure Pursuit geometric path tracker</description>
+	</class>
+	<class name="saye_nav2_plugins/StanleyController" type="saye_nav2_plugins::StanleyController" base_class_type="nav2_core::Controller">
+	  <description>Stanley controller combining heading error and cross-track error</description>
+	</class>
+</library>

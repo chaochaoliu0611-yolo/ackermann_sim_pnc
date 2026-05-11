@@ -1,0 +1,18 @@
+/build/
+/install/
+/log/
+/.vscode/
+# Python
+__pycache__/
+*.pyc
+
+# 项目本地
+*.db
+*.db-wal
+*.db-shm
+*.gv
+*.pdf
+*.log
+opencode_archives/
+interview_resume.md
+面试问答素材.md
