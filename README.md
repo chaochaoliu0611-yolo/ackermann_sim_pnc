@@ -395,8 +395,4 @@ Apache License 2.0
 
 原项目：https://github.com/alitekes1/ackermann-vehicle-gzsim-ros2
 
----
 
-## Star History
-
-[![Star History](https://api.star-history.com/svg?repos=alitekes1/ackermann-vehicle-gzsim-ros2&type=Date)](https://www.star-history.com/#alitekes1/ackermann-vehicle-gzsim-ros2&Date)
